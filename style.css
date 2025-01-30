@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mycontainer{
+    /* background-color: aqua; */
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mycontainer img{
+    height: 100px;
+}
+
+.mycontainer input{
+    background-color: #ecedef;
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.mycontainer input:hover{
+    background-color: #d2d7e2;
+}
+
+.mycontainer .icons{
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+.list ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 160px;
+}
+
+.timer-box{
+    background-color: #e5edff;
+    height: 400px;
+    width: 650px;
+    margin-left: 190px;
+    border-radius: 20px;
+}
+
+.timebtn{
+    background-color: #e5edff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 15%;
+    margin: 8px;
+}
+.timebtn:hover{
+    background-color: #9eb5e4;
+}
+
+.stopbtn{
+    background-color: #a3c5ff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 20%;
+    margin: 8px;
+}
+
+.playbtn{
+    background-color: #0b57d0;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.box-input input{
+    background-color: #e5edff;
+    border: none;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
