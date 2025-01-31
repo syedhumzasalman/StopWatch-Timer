@@ -12,6 +12,7 @@
     }
     .list ul{
        margin-left: 0px;
+       margin-top: 20px;
     }
    .mycontainer img{
     place-items: center;
@@ -35,7 +36,7 @@
 @media only screen and (max-width: 500px){
     .list ul{
         font-size: 12px;
-        margin-top: 10px;
+        margin-top: 20px;
      }
      .finance{
         display: none;
