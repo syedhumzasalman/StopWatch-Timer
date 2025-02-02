@@ -54,18 +54,34 @@
 
 
             <div class="timer-box">
-                <button class="timebtn"><i class="fa-solid fa-hourglass-start"></i> Timer</button>
-                <button class="stopbtn"><i class="fa-solid fa-check"></i> StopWatch</button>
+                <button onclick="timer()" class="timebtn"><i class="fa-solid fa-hourglass-start"></i> Timer</button>
+                <button onclick="stopwatch()" class="stopbtn"><i class="fa-solid fa-check"></i> StopWatch</button>
 
                 <div class="box-input">
 
-                    <input type="text" name="" id="watch" readonly  placeholder="0.00" >
+
+                  <div id="stopWatch-section">
+                    <input class="stopwatch" type="text" name="" id="display" disabled  placeholder="00:00" >
+                  </div>
+
+<!-- 
+                  <div id="timer-section" class="timer-box">
+                    <input class="timer" type="number" placeholder="5:00">
+                      <div class="timer-button">
+                         <button>+0:30</button>
+                         <button>+1:00</button>
+                         <button>+5:00</button>
+                      </div>
+                  </div> -->
 
                     <div class="play-pause">
-                      <button onclick="displayTime()" class="playbtn"><i class="fa-solid fa-play"></i></button>
-                      <button onclick="cleardisplayTime()" class="playbtn"><i class="fa-solid fa-play"></i></button>
+                      <button onclick="displayTime()" id="play" class="playbtn"><i class="fa-solid fa-play"></i></button>
+                      <button onclick="cleardisplayTime()" id="end" class="playbtn"><i class="fa-solid fa-arrow-rotate-right"></i></button>
                     </div>
+
                 </div>
+
+                
 
 
             </div>
